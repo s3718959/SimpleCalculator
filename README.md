@@ -1,1 +1,1 @@
-### SimpleCalculator Project Template Branch
+### SimpleCalculator Project Template

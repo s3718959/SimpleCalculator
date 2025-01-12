@@ -1,7 +1,13 @@
 // SimpleCalculatorApplication.java
 // D. Singletary
+// Aaron Harrison
 // 1/9/2024
+// 1/12/2025
 // Template for calculator application
+
+//Modified on 1/12/2025
+//Krishna Good
+//Added four lines of methods and erased Aaron's hard work
 
 package edu.fscj.cen3024c.simplecalculator;
 
@@ -30,5 +36,19 @@ public class SimpleCalculatorApplication {
         // Test the subtract function
         result = subtract(number1, number2);
         System.out.println("Add result is: " + result);
+    }
+
+
+    public static int multiply(int number1, int number2) {
+        return  number1 * number2;
+    }
+    public static int divide(int number1, int number2) {
+        return  number1 / number2;
+    }
+    public static int add(int number1, int number2) {
+        return  number1 + number2;
+    }
+    public static int subtract(int number1, int number2) {
+        return  number1 - number2;
     }
 }

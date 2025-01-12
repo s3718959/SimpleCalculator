@@ -5,6 +5,10 @@
 // 1/12/2025
 // Template for calculator application
 
+//Modified on 1/12/2025
+//Krishna Good
+//Added four lines of methods and erased Aaron's hard work
+
 package edu.fscj.cen3024c.simplecalculator;
 
 import org.springframework.boot.SpringApplication;
@@ -34,22 +38,16 @@ public class SimpleCalculatorApplication {
         System.out.println("Add result is: " + result);
     }
 
-    public static int add(int a, int b) {
-        return a + b;
+    public static int multiply(int number1, int number2) {
+        return  number1 * number2;
     }
-
-    public static int subtract(int a, int b) {
-        return a - b;
+    public static int divide(int number1, int number2) {
+        return  number1 / number2;
     }
-
-    public static int multiply(int a, int b) {
-        return a * b;
+    public static int add(int number1, int number2) {
+        return  number1 + number2;
     }
-
-    public static int divide(int a, int b) {
-        if (b == 0) {
-            throw new IllegalArgumentException("Cannot divide by zero.");
-        }
-        return a / b;
+    public static int subtract(int number1, int number2) {
+        return  number1 - number2;
     }
 }
